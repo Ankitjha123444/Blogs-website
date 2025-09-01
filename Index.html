@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">Post 1</a></li>
+                <li><a href="#post2">Post 2</a></li>
+                <li><a href="#post3">Post 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="post1">
+            <h2>Post Title One</h2>
+            <img src="https://images.pexels.com/photos/29467652/pexels-photo-29467652.jpeg"width="600" height="400" alt="Placeholder image for Post 1">
+            <p class="date">Published on: October 26, 2023</p>
+            <div class="content">
+                <p>This is the content for the first blog post. It's a great opportunity to demonstrate your web development skills[cite: 62].</p>
+                <p>You can be creative and add your personal touches to make the blog unique[cite: 63, 64].</p>
+            </div>
+            
+            <section class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-list">
+                    </div>
+                <form class="comment-form" data-post-id="post1">
+                    <h4>Leave a Comment</h4>
+                    <label for="name1">Name:</label>
+                    <input type="text" id="name1" required>
+                    <label for="comment1">Comment:</label>
+                    <textarea id="comment1" rows="4" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </section>
+        </article>
+
+        <article id="post2">
+            <h2>Post Title Two</h2>
+            <img src="https://placehold.co/600x400"alt="Placeholder image for Post 2">
+            <p class="date">Published on: October 27, 2023</p>
+            <div class="content">
+                <p>This is the content for the second blog post. It's important to make sure the website is responsive[cite: 35, 36].</p>
+            </div>
+            
+            <section class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-list">
+                    </div>
+                <form class="comment-form" data-post-id="post2">
+                    <h4>Leave a Comment</h4>
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" required>
+                    <label for="comment2">Comment:</label>
+                    <textarea id="comment2" rows="4" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </section>
+        </article>
+
+        <article id="post3">
+            <h2>Post Title Three</h2>
+            <img src="https://images.pexels.com/photos/32119572/pexels-photo-32119572.jpeg"width="600"height="400" alt="Placeholder image for Post 3">
+            <p class="date">Published on: October 28, 2023</p>
+            <div class="content">
+                <p>This is the content for the third blog post. Remember to test your blog on different browsers[cite: 44].</p>
+            </div>
+            
+            <section class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-list">
+                    </div>
+                <form class="comment-form" data-post-id="post3">
+                    <h4>Leave a Comment</h4>
+                    <label for="name3">Name:</label>
+                    <input type="text" id="name3" required>
+                    <label for="comment3">Comment:</label>
+                    <textarea id="comment3" rows="4" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
